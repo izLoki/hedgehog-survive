@@ -2,10 +2,10 @@ import Phaser from 'phaser';
 import { Enemy, type EnemyType } from '../entities/Enemy';
 
 const BASE_SPAWN_INTERVAL = 1500;
-const MIN_SPAWN_INTERVAL = 400;
-const DIFFICULTY_STEP_MS = 22000;
-const SPAWN_INTERVAL_MULTIPLIER = 0.9;
-const MAX_ENEMIES = 65;
+const MIN_SPAWN_INTERVAL = 350;
+const DIFFICULTY_STEP_MS = 15000;
+const SPAWN_INTERVAL_MULTIPLIER = 0.88;
+const MAX_ENEMIES = 75;
 const MIN_PLAYER_DISTANCE = 400;
 const MAX_SPAWN_ATTEMPTS = 12;
 
