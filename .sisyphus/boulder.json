@@ -1,0 +1,33 @@
+{
+  "active_plan": "C:\\Users\\izlok\\Projects\\Personal\\Filadd\\.sisyphus\\plans\\knight-survivor.md",
+  "started_at": "2026-05-09T14:59:17.327Z",
+  "session_ids": [
+    "ses_1f2d9dc89ffeJYkd0slzSRF3II",
+    "ses_1f2bfeec3ffeYrYYp1azM717lO",
+    "ses_1f2bf999affegg2YtW2zOvmzF8",
+    "ses_1f2bf98fcffeGr7YKqUMwf3YAF",
+    "ses_1f2bf98f8ffeo7pHp7tH1TS5Cf",
+    "ses_1f2bf98b2ffeJL6jtbUKPwuVl4"
+  ],
+  "session_origins": {
+    "ses_1f2d9dc89ffeJYkd0slzSRF3II": "direct",
+    "ses_1f2bfeec3ffeYrYYp1azM717lO": "direct",
+    "ses_1f2bf999affegg2YtW2zOvmzF8": "appended",
+    "ses_1f2bf98fcffeGr7YKqUMwf3YAF": "appended",
+    "ses_1f2bf98f8ffeo7pHp7tH1TS5Cf": "appended",
+    "ses_1f2bf98b2ffeJL6jtbUKPwuVl4": "appended"
+  },
+  "plan_name": "knight-survivor",
+  "agent": "atlas",
+  "task_sessions": {
+    "final-wave:f1": {
+      "task_key": "final-wave:f1",
+      "task_label": "F1",
+      "task_title": "**Plan Compliance Audit** — `oracle`",
+      "session_id": "ses_1f271eeedffepBSih683hbtHVb",
+      "agent": "Sisyphus-Junior",
+      "category": "visual-engineering",
+      "updated_at": "2026-05-09T16:31:50.613Z"
+    }
+  }
+}

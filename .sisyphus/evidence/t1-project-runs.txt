@@ -1,0 +1,10 @@
+T1 Verification Log
+===================
+Date: 2026-05-09
+Project: Knight Survivor (root)
+Server: http://localhost:5173
+Status: RUNNING
+Build: npm run build - SUCCESS
+Console errors: 1 (favicon.ico 404 - harmless)
+Canvas detected: YES (800x600)
+Screenshot: .sisyphus/evidence/t1-project-runs.png

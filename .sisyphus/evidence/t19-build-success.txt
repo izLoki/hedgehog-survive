@@ -1,0 +1,22 @@
+T19 Build Success Log
+=====================
+Date: 2026-05-09
+
+Build Command: npm run build
+Result: PASS
+
+Output:
+- dist/index.html (0.68 kB)
+- dist/assets/index-BHSCPNPp.js (1,492.54 kB, gzip: 343.17 kB)
+
+Warnings:
+- Phaser chunk exceeds 1000 kB warning limit. This is expected and acceptable for a Phaser game.
+  chunkSizeWarningLimit is set to 1000 kB in vite.config.ts.
+
+Deploy Config Files:
+- vite.config.ts: base='./', outDir='dist', assetsDir='assets', chunkSizeWarningLimit=1000
+- vercel.json: SPA rewrite rule => /index.html
+
+Deploy Commands (for T20):
+- npm run build
+- vercel --prod (requires Vercel CLI login)
