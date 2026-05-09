@@ -18,7 +18,7 @@ export class BootScene extends Phaser.Scene {
   }
 
   private showBootScreen(): void {
-    this.add.text(400, 250, 'Knight Survivor', {
+    this.add.text(400, 250, 'Hedgehog Survive', {
       fontSize: '42px',
       color: '#c9b037',
       fontFamily: 'serif',
@@ -42,12 +42,40 @@ export class BootScene extends Phaser.Scene {
         width: 32,
         height: 32,
         draw: (graphics) => {
-          graphics.fillStyle(0x4a6fa5, 1);
-          graphics.fillRect(8, 10, 16, 18);
-          graphics.fillStyle(0xc9b037, 1);
-          graphics.fillRect(10, 4, 12, 10);
-          graphics.fillStyle(0x2f425f, 1);
-          graphics.fillRect(12, 8, 8, 3);
+          // Cuerpo del erizo
+          graphics.fillStyle(0x6b4423, 1);
+          graphics.fillCircle(16, 16, 9);
+
+          // Espinas
+          graphics.fillStyle(0x4a3020, 1);
+          // Espina superior
+          graphics.fillTriangle(16, 4, 12, 11, 20, 11);
+          // Espinas superiores laterales
+          graphics.fillTriangle(7, 8, 11, 13, 5, 13);
+          graphics.fillTriangle(25, 8, 21, 13, 27, 13);
+          // Espinas laterales
+          graphics.fillTriangle(4, 15, 10, 16, 4, 17);
+          graphics.fillTriangle(28, 15, 22, 16, 28, 17);
+          // Espinas inferiores
+          graphics.fillTriangle(10, 25, 13, 19, 7, 19);
+          graphics.fillTriangle(22, 25, 25, 19, 19, 19);
+
+          // Cara (mas clara)
+          graphics.fillStyle(0x8b6914, 1);
+          graphics.fillCircle(16, 16, 6);
+
+          // Ojos
+          graphics.fillStyle(0x000000, 1);
+          graphics.fillCircle(13, 15, 1);
+          graphics.fillCircle(19, 15, 1);
+
+          // Nariz
+          graphics.fillCircle(16, 18, 1);
+
+          // Patitas
+          graphics.fillStyle(0x4a3020, 1);
+          graphics.fillRect(10, 24, 3, 3);
+          graphics.fillRect(19, 24, 3, 3);
         },
       },
       {

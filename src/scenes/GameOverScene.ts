@@ -32,7 +32,7 @@ export class GameOverScene extends Phaser.Scene {
     const timeSurvived = this.dataReceived.timeSurvived ?? 0;
     const level = this.dataReceived.level ?? 1;
     const kills = this.dataReceived.kills ?? 0;
-    const username = this.dataReceived.username ?? 'Unknown Knight';
+    const username = this.dataReceived.username ?? 'Unknown Hedgehog';
 
     const minutes = Math.floor(timeSurvived / 60)
       .toString()
@@ -45,7 +45,7 @@ export class GameOverScene extends Phaser.Scene {
       fontFamily: 'serif',
     }).setOrigin(0.5);
 
-    this.add.text(400, 160, `Knight: ${username}`, {
+    this.add.text(400, 160, `Hedgehog: ${username}`, {
       fontSize: '18px',
       color: '#a09080',
       fontFamily: 'serif',

@@ -418,7 +418,7 @@ export class GameScene extends Phaser.Scene {
 
   private getUsername(): string {
     const username = this.registry.get('username');
-    return typeof username === 'string' && username.trim().length > 0 ? username : 'Unknown Knight';
+    return typeof username === 'string' && username.trim().length > 0 ? username : 'Unknown Hedgehog';
   }
 
   private readonly getPlayerPosition = (): Phaser.Types.Math.Vector2Like => ({

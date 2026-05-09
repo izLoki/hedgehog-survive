@@ -78,13 +78,13 @@ export class MenuScene extends Phaser.Scene {
   }
 
   private createTitle(): void {
-    this.add.text(400, 120, 'Knight Survivor', {
+    this.add.text(400, 120, 'Hedgehog Survive', {
       fontSize: '48px',
       color: '#c9b037',
       fontFamily: 'serif',
     }).setOrigin(0.5);
 
-    this.add.text(400, 175, 'Survive the Dungeon', {
+    this.add.text(400, 175, 'Run, Hedgehog, Run!', {
       fontSize: '20px',
       color: '#a09080',
       fontFamily: 'serif',
@@ -155,7 +155,7 @@ export class MenuScene extends Phaser.Scene {
   private createRankingsPreview(): void {
     this.rankingsContainer = this.add.container(400, 500);
 
-    const titleText = this.add.text(0, -70, 'Top Knights', {
+    const titleText = this.add.text(0, -70, 'Top Hedgehogs', {
       fontSize: '18px',
       color: '#c9b037',
       fontFamily: 'serif',
