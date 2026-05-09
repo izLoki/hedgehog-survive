@@ -26,7 +26,9 @@ Thumbs.db
 
 # Test / coverage
 coverage/
+sisyphus/
 .nyc_output/
+.playwright-mcp/
 
 # Local caches
 .cache/
